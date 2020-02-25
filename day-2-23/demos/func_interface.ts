@@ -1,7 +1,7 @@
 // 函数类型接口
 
 // No1. 直接在变量上定义
-let Add1: (x: number, x: number) => number;
+let Add1: (x: number, y: number) => number;
 
 // No2. 用接口定义
 interface Add2 {
